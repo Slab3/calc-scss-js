@@ -1,0 +1,46 @@
+/* Turn on font smoothing (does't working in IE) */
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+//====================standard styles higher==================
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  box-sizing: border-box;
+  background-color: #abd4e2;
+}
+
+a {
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: none;
+    color: #000b21;
+  }
+}
+
+flex-elem {
+  display: flex;
+}
+
+p {
+  text-align: center;
+  color: #001553;
+}

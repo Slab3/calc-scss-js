@@ -1,0 +1,97 @@
+.container {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 15px 0;
+}
+
+.table-calc {
+  max-width: 500px;
+  margin: 0 auto;
+
+  table {
+    border: 2px solid #030049;
+    border-radius: 10px;
+    width: 100%;
+    padding: 5px;
+
+    td {
+      //border: 2px solid #001553;
+      border-radius: 4px;
+      text-align: center;
+      line-height: 35px;
+      width: 20%;
+      padding: 3px;
+
+      .display-calc{
+
+
+        .display { //дісплей - інпут калькулятора
+          width: 100%;
+          line-height: 35px;
+          text-align: center;
+        }
+      }
+
+      sup { //маленький ел. біля квадрату
+        font-size: 12px;
+      }
+//==========================================================buttons-calc / стилі до кнопок калькулятора
+      button {
+        width: 100%;
+        border-radius: 7px;
+      }
+
+      .ops {
+        background: #cfd1d5;
+        border-color: #cfd1d5;
+
+        &:hover {
+          background: #b5bce3;
+        }
+
+      }
+
+      .num-btn, .dot-btn {
+        background: #f1f3f4;
+        border-color: #f1f3f4;
+
+        &:hover {
+          background-color: #d6dcf0;
+        }
+      }
+
+      .equals {
+        background: #4285f4;
+        border-color: #4285f4;
+
+        &:hover {
+          background-color: #4367ec;
+        }
+      }
+
+      .clear-btn {
+        background: #ffae00;
+        border-color: #ffae00;
+
+        &:hover {
+          background-color: #ff9100;
+        }
+      }
+
+//==========================================================end of buttons-calc / кінець стилів до кнопок кальк
+    }
+  }
+}
+
+.degrees {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0 auto;
+  .degreesnum {
+    width: 100%;
+  }
+}
+
+
+
