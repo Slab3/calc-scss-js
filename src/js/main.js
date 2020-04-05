@@ -38,17 +38,19 @@ module.addEventListener('click', () => {       //
     displayCalc.value = Math.abs(memory);
 })
 
+
+squareRoot.addEventListener('click', () => {    //корінь
+    let memory = displayCalc.value;
+    displayCalc.value = Math.sqrt(memory);
+
+})
+
 squareDegree.addEventListener('click', () => {       //квадрат
     let memory = displayCalc.value;
     displayCalc.value = Math.pow(memory, 2);
 })
 
-squareRoot.addEventListener('click', () => {    //корінь
-    let memory = displayCalc.value;
-    displayCalc.value = Math.sqrt(memory);
-})
-
-cube.addEventListener('click', () => {
+cube.addEventListener('click', () => {          //куб
     let memory = displayCalc.value;
     displayCalc.value = Math.pow(memory, 3);
 })
